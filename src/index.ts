@@ -2,11 +2,19 @@ import MagicString from 'magic-string'
 
 const { extend } = require('acorn-jsx-walk')
 const {base, simple} = require('acorn-walk')
+const jsxParser = require('acorn-jsx')
 
 extend(base)
 
 export default function jsx () {
   return {
+    options (opt) {
+      if (!opt.acornInjectPlugins) {
+        opt.acornInjectPlugins = []
+      }
+      opt.acornInjectPlugins.push(jsxParser())
+      return opt
+    },
     transform (code, id) {
       if (id.endsWith('.tsx') || id.endsWith('.jsx')) {
         let ast
@@ -37,10 +45,15 @@ export default function jsx () {
             magicString.remove(end - 1, end)
           },
           JSXFragment ({children}) {
+            let started = false
             for (let i = 1; i < children.length; i++) {
               const {type, start, raw} = children[i]
               if (type !== 'JSXText' || raw.trim()) {
-                magicString.appendLeft(start, ',')
+                if (started) {
+                  magicString.appendLeft(start, ',')
+                } else {
+                  started = true
+                }
               }
             }
           },
