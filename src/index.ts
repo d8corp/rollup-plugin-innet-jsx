@@ -15,7 +15,7 @@ export default function jsx () {
       opt.acornInjectPlugins.push(jsxParser())
       return opt
     },
-    transform (code, id) {
+    transform (code: string, id: string) {
       if (id.endsWith('.tsx') || id.endsWith('.jsx')) {
         let ast
 
