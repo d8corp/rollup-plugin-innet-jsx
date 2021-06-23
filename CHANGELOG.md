@@ -1,5 +1,8 @@
 # Changelog
 ## v1.0
+### v1.0.5 [![24.06.2021](https://img.shields.io/date/1624490718)](https://github.com/d8corp/watch-state/tree/v1.0.5)
+- reverted back the previous changes
+- fixed backslash bug
 ### v1.0.4 [![24.06.2021](https://img.shields.io/date/1624489837)](https://github.com/d8corp/watch-state/tree/v1.0.4)
 - fixed acorn dependency bug
 ### v1.0.3 [![24.06.2021](https://img.shields.io/date/1624486977)](https://github.com/d8corp/watch-state/tree/v1.0.3)
