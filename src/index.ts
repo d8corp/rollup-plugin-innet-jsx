@@ -136,7 +136,7 @@ export default function jsx () {
             if (value) {
               magicString.overwrite(name.end, value.start, `:`)
               if (value.type === 'Literal') {
-                magicString.overwrite(value.start, value.end, value.value.replace(/\\/g, '\\\\'))
+                magicString.overwrite(value.start, value.end, value.raw.replace(/\\/g, '\\\\'))
               }
             } else {
               magicString.appendLeft(name.end, ':true')
