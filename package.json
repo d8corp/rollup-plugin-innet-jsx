@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-innet-jsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Rollup plugin which converts jsx to object (JSXElement of innet)",
   "homepage": "https://github.com/d8corp/rollup-plugin-innet-jsx",
   "author": "Mikhail Lysikov <d8corp@mail.ru>",
