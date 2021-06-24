@@ -1,4 +1,7 @@
 # Changelog
+## v1.1
+### v1.1.0 [![24.06.2021](https://img.shields.io/date/1624564003)](https://github.com/d8corp/watch-state/tree/v1.1.0)
+- connected [innet-jsx](https://www.npmjs.com/package/innet-jsx)
 ## v1.0
 ### v1.0.5 [![24.06.2021](https://img.shields.io/date/1624490718)](https://github.com/d8corp/watch-state/tree/v1.0.5)
 - reverted back the previous changes

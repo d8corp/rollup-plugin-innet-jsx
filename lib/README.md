@@ -1,10 +1,12 @@
-[![NPM](https://img.shields.io/npm/v/rollup-plugin-innet-jsx.svg)](https://github.com/d8corp/rollup-plugin-innet-jsx/blob/main/CHANGELOG.md)
-[![downloads](https://img.shields.io/npm/dm/rollup-plugin-innet-jsx.svg)](https://www.npmjs.com/package/rollup-plugin-innet-jsx)
+[![NPM](https://img.shields.io/npm/v/rollup-plugin-innet-jsx.svg)](https://www.npmjs.com/package/rollup-plugin-innet-jsx)
+[![downloads](https://img.shields.io/npm/dm/rollup-plugin-innet-jsx.svg)](https://www.npmtrends.com/rollup-plugin-innet-jsx)
 [![license](https://img.shields.io/npm/l/rollup-plugin-innet-jsx)](https://github.com/d8corp/rollup-plugin-innet-jsx/blob/main/LICENSE)
 
 # rollup-plugin-innet-jsx
 
 🍣 A Rollup plugin which converts jsx to object (`JSXElement` from [innet](https://www.npmjs.com/package/innet)).
+
+[CHANGELOG](https://github.com/d8corp/rollup-plugin-innet-jsx/blob/main/CHANGELOG.md)
 
 [![stars](https://img.shields.io/github/stars/d8corp/rollup-plugin-innet-jsx?style=social)](https://github.com/d8corp/rollup-plugin-innet-jsx/stargazers)
 [![watchers](https://img.shields.io/github/watchers/d8corp/rollup-plugin-innet-jsx?style=social)](https://github.com/d8corp/rollup-plugin-innet-jsx/watchers)
@@ -47,5 +49,6 @@ module.exports = {
 Then call `rollup` either via the [CLI](https://www.rollupjs.org/guide/en/#command-line-reference) or the [API](https://www.rollupjs.org/guide/en/#javascript-api). If the build produces any errors, the plugin will write a 'alias' character to stderr, which should be audible on most systems.
 
 ### Issues
-If you find a bug or have a suggestion, please file an issue on [GitHub](https://github.com/d8corp/rollup-plugin-innet-jsx/issues).  
+If you find a bug or have a suggestion, please file an issue on [GitHub](https://github.com/d8corp/rollup-plugin-innet-jsx/issues).
+
 [![issues](https://img.shields.io/github/issues-raw/d8corp/rollup-plugin-innet-jsx)](https://github.com/d8corp/rollup-plugin-innet-jsx/issues)
