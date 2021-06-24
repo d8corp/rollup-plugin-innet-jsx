@@ -1,20 +1,20 @@
 # Changelog
 ## v1.1
-### v1.1.0 [![24.06.2021](https://img.shields.io/date/1624564003)](https://github.com/d8corp/watch-state/tree/v1.1.0)
+### v1.1.0 [![24.06.2021](https://img.shields.io/date/1624564003)](https://github.com/d8corp/innet-jsx/tree/v1.1.0)
 - connected [innet-jsx](https://www.npmjs.com/package/innet-jsx)
 ## v1.0
-### v1.0.5 [![24.06.2021](https://img.shields.io/date/1624490718)](https://github.com/d8corp/watch-state/tree/v1.0.5)
+### v1.0.5 [![24.06.2021](https://img.shields.io/date/1624490718)](https://github.com/d8corp/innet-jsx/tree/v1.0.5)
 - reverted back the previous changes
 - fixed backslash bug
-### v1.0.4 [![24.06.2021](https://img.shields.io/date/1624489837)](https://github.com/d8corp/watch-state/tree/v1.0.4)
+### v1.0.4 [![24.06.2021](https://img.shields.io/date/1624489837)](https://github.com/d8corp/innet-jsx/tree/v1.0.4)
 - fixed acorn dependency bug
-### v1.0.3 [![24.06.2021](https://img.shields.io/date/1624486977)](https://github.com/d8corp/watch-state/tree/v1.0.3)
+### v1.0.3 [![24.06.2021](https://img.shields.io/date/1624486977)](https://github.com/d8corp/innet-jsx/tree/v1.0.3)
 - fixed acorn dependency bug
 - fixed previous release bug
-### v1.0.2 [![23.06.2021](https://img.shields.io/date/1624481216)](https://github.com/d8corp/watch-state/tree/v1.0.2)
+### v1.0.2 [![23.06.2021](https://img.shields.io/date/1624481216)](https://github.com/d8corp/innet-jsx/tree/v1.0.2)
 - added backslash escaping on literal attribute value
-### v1.0.1 [![19.06.2021](https://img.shields.io/date/1624106151)](https://github.com/d8corp/watch-state/tree/v1.0.1)
+### v1.0.1 [![19.06.2021](https://img.shields.io/date/1624106151)](https://github.com/d8corp/innet-jsx/tree/v1.0.1)
 - added jsx parser by default
 - reduced the first comma in Fragment
-### v1.0.0 [![19.06.2021](https://img.shields.io/date/1624103838)](https://github.com/d8corp/watch-state/tree/v1.0.0)
+### v1.0.0 [![19.06.2021](https://img.shields.io/date/1624103838)](https://github.com/d8corp/innet-jsx/tree/v1.0.0)
 - the first implementation
