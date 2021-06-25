@@ -12,7 +12,10 @@ export default function jsx () {
       return opt
     },
     transform (code: string, id: string) {
-      return transform(code, id, code => this.parse(code))
+      return transform(code, {
+        jsxFile: id,
+        parser: code => this.parse(code)
+      })
     }
   }
 }

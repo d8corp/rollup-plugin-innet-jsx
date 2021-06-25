@@ -1,5 +1,7 @@
 # Changelog
 ## v1.1
+### v1.1.1 [![25.06.2021](https://img.shields.io/date/1624633640)](https://github.com/d8corp/innet-jsx/tree/v1.1.1)
+- fixed source map bugs
 ### v1.1.0 [![24.06.2021](https://img.shields.io/date/1624564003)](https://github.com/d8corp/innet-jsx/tree/v1.1.0)
 - connected [innet-jsx](https://www.npmjs.com/package/innet-jsx)
 ## v1.0
