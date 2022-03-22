@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2
+
+### v1.2.0 [![22.03.2022](https://img.shields.io/date/1647978960)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.2.0)
+- updated dependencies
+- support getter feature of [innet-jsx](https://www.npmjs.com/package/innet-jsx)
+
 ## v1.1
 
 ### v1.1.3 [![02.03.2022](https://img.shields.io/date/1646170909)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.1.3)
