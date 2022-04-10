@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.3
+
+### v1.3.0 [![10.04.2022](https://img.shields.io/date/1649588360)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.3.0)
+- changed space handling algorithm
+
 ## v1.2
 
 ### v1.2.0 [![22.03.2022](https://img.shields.io/date/1647978960)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.2.0)
