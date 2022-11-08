@@ -7,7 +7,7 @@ export default [{
   output: {
     dir: 'lib',
     entryFileNames: '[name]' + pkg.main.replace('index', ''),
-    format: 'cjs'
+    format: 'cjs',
   },
   plugins: [
     typescript(),
