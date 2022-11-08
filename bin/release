@@ -30,7 +30,7 @@ async function start () {
 async function rollUpUsage () {
   if (process.argv.includes('-rollup')) {
     consoleStart('converting js for browsers')
-    await getPromise(resolve => exec(`rollup -c`, {}, resolve))
+    await getPromise(resolve => exec(`rollup -c --bundleConfigAsCjs`, {}, resolve))
     consoleEnd('converting js for browsers')
   }
 }

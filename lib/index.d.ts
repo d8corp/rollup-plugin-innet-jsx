@@ -1,4 +1,2 @@
-export default function jsx(): {
-    options(opt: any): any;
-    transform(code: string, id: string): import("innet-jsx").TransformResult;
-};
+import { Plugin } from 'rollup';
+export default function jsx(): Plugin;
