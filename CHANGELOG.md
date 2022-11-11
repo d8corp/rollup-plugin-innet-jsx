@@ -2,6 +2,9 @@
 
 ## v1.3
 
+### v1.3.3 [![11.11.2022](https://img.shields.io/date/1668167007)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.3.3)
+- fix map error
+
 ### v1.3.2 [![08.11.2022](https://img.shields.io/date/1667920711)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.3.2)
 - fix commonJs import bug
 

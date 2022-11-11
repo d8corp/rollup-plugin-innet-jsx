@@ -3,9 +3,12 @@ import { Plugin } from 'rollup'
 
 const jsxParser = require('acorn-jsx')
 
+const name = 'rollup-plugin-innet-jsx'
+const TJSX_REG = /(t|j)sx?$/
+
 export default function jsx (): Plugin {
   return {
-    name: 'jsx',
+    name,
     options (opt) {
       if (!opt.acornInjectPlugins) {
         opt.acornInjectPlugins = [jsxParser()]
@@ -17,7 +20,7 @@ export default function jsx (): Plugin {
       return opt
     },
     transform (code: string, id: string) {
-      if (/(t|j)sx?$/.test(id)) {
+      if (TJSX_REG.test(id)) {
         return transform(code, {
           jsxFile: id,
           parser: code => this.parse(code)
