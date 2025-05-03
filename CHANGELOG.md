@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0
+
+### v2.0.0 [![03.05.2025](https://img.shields.io/date/1746273710)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v2.0.0)
+- update `innet-jsx` to 2 version
+
 ## v1.3
 
 ### v1.3.3 [![11.11.2022](https://img.shields.io/date/1668167007)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v1.3.3)
