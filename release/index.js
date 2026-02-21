@@ -1,21 +1,13 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var transform = require('innet-jsx');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var transform__default = /*#__PURE__*/_interopDefaultLegacy(transform);
 
-(function () {
-  const env = {"INNETJS_JSX_PACKAGE_VERSION":"1.4.0"};
-  if (typeof process === 'undefined') {
-    process = { env };
-  } else if (process.env) {
-    Object.assign(process.env, env);
-  } else {
-    process.env = env;
-  }
-})();
 const jsxParser = require('acorn-jsx');
 const name = 'rollup-plugin-innet-jsx';
 const TJSX_REG = /(t|j)sx?$/;
@@ -45,4 +37,4 @@ function jsx() {
     };
 }
 
-module.exports = jsx;
+exports["default"] = jsx;

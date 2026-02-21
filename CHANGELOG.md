@@ -2,6 +2,10 @@
 
 ## v2.0
 
+### v2.0.1 [![21.02.2026](https://img.shields.io/date/1771699629)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v2.0.1)
+
+- Fix `INNETJS_JSX_PACKAGE_VERSION` bug
+
 ### v2.0.0 [![03.05.2025](https://img.shields.io/date/1746273710)](https://github.com/d8corp/rollup-plugin-innet-jsx/tree/v2.0.0)
 - update `innet-jsx` to 2 version
 

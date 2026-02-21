@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-innet-jsx",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Rollup plugin which converts jsx to object (JSXElement of innet)",
   "homepage": "https://github.com/d8corp/rollup-plugin-innet-jsx",
   "author": "Mikhail Lysikov <d8corp@mail.ru>",
@@ -11,9 +11,9 @@
   "jsnext:main": "index.mjs",
   "types": "index.d.ts",
   "scripts": {
-    "build": "innetjs release -n",
+    "build": "innetjs release",
     "test": "jest",
-    "release": "innetjs release -n -p",
+    "release": "innetjs release -p",
     "patch": "innetjs patch",
     "minor": "innetjs minor",
     "major": "innetjs major"
@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "acorn-jsx": "^5.3.2",
-    "innet-jsx": "^2.0.1"
+    "innet-jsx": "^2.0.8"
   }
 }
